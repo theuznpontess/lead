@@ -1,0 +1,319 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Corpo */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Seção Hero */
+.hero {
+    background: linear-gradient(135deg, purple, purple);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    right: -100px;
+}
+
+
+
+.hero form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.hero input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.hero input[type="area"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.hero a {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #ff5733;
+}
+
+/* Seção Benefícios */
+.benefits {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.benefit {
+    margin-bottom: 30px;
+}
+
+.benefit h3 {
+    font-size: 1.8em;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Seção Testemunhos */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.testimonial span {
+    display: block;
+    font-size: 1.1em;
+    color: purple;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 1em;
+}
+
+/* Seção Hero */
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px; /* Limita a largura do parágrafo */
+    margin-left: auto; /* Centraliza o parágrafo na tela */
+    margin-right: auto; /* Centraliza o parágrafo na tela */
+    padding: 0 20px; /* Adiciona espaço nas laterais do parágrafo */
+}
+
+/* Seção Benefícios */
+.benefits p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px; /* Limita a largura do parágrafo */
+    margin-left: auto; /* Centraliza o parágrafo na tela */
+    margin-right: auto; /* Centraliza o parágrafo na tela */
+    padding: 0 20px; /* Adiciona espaço nas laterais do parágrafo */
+}
+
+/* Seção Testemunhos */
+.testimonials {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+}
+
+.testimonial-content {
+    flex-grow: 1; /* Permite que o conteúdo da avaliação ocupe o restante do espaço */
+    padding-left: 100px; /* Deixa espaço para a foto */
+}
+
+.testimonial-content p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+.testimonial-info {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.testimonial-photo {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border: 4px solid purple;
+}
+
+.testimonial-name {
+    margin-top: 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: purple;
+}
+
+f {
+    text-align: left;
+    margin-left: 0px;
+}   
+
+h9 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px; /* Limita a largura do parágrafo */
+    margin-left: auto; /* Centraliza o parágrafo na tela */
+    margin-right: auto; /* Centraliza o parágrafo na tela */
+    padding: 0 20px; /* Adiciona espaço nas laterais do parágrafo */
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo para os produtos */
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    vertical-align: top;
+}
+
+/* Moldura ao redor do produto */
+.product-frame {
+    background-color: #fff;
+    border: 1px solid #ddd;  /* Borda ao redor do produto */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de hover para a moldura */
+.product-frame:hover {
+    transform: scale(1.05); /* Leve aumento do tamanho ao passar o mouse */
+}
+
+/* Imagem do produto */
+.product-frame img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Detalhes do produto */
+.product-details {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.product-details h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0;
+}
+
+.product-details p {
+    font-size: 1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .product {
+        width: 100%;
+    }
+}
+
